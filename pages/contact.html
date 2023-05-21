@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulina Segovia Candia</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&family=Open+Sans:wght@300;500;700;800&family=Roboto:wght@300;500;700;900&family=Ysabeau:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/mainMini.css">
+    <script src="../scripts/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav class="topNav">
+            <a href="../home.html"> <img src="../images/logo.png" id="logo" alt="Logo showing coding icon, microscope, article and microphone"></a>
+            <ul class="menu">
+                <li> 
+                    <a href="../home.html" class=" menuItem"> Home </a> </li>
+                <li> 
+                    <a href="../pages/programming.html" class=" menuItem">Programming</a>
+                </li>
+                <li> 
+                    <a href="../pages/scicomm.html" class="  menuItem">Science Communication</a>
+                </li>
+                <!-- <li> 
+                    <a href="../pages/opinion.html" class="menuItem">Opinion Articles</a>
+                </li> -->
+                <li> 
+                    <a href="../pages/contact.html" class="menuItem active">Contact</a> 
+                </li>
+            </ul>
+            <button class="icon">
+                <i class="fa-solid fa-bars menuIcon"></i>
+                <i class="fa-regular fa-rectangle-xmark closeIcon"></i>
+            </button>
+        </nav>
+    </header>
+<main>
+
+    <article>
+        <h1>Reach out to me!</h1>
+        <p> I am all about collaboration, so reach out to me, and let's stay in touch!</p>
+
+        <ul class="contact">
+            <li>Do you think I would be a good fit for your team</li>
+            <li>Do you have an idea and you would like to collaborate?</li>
+            <li>Are you a student, and would you like my feedback?</li>
+        </ul> 
+        
+        <!-- <p>Do you think I would be a good fit for your team?</p>
+        <p>Do you have an idea and you would like to collaborate?</p>
+        <p>Are you a student, and would you like my feedback?</p> -->
+
+        <p> I would be happy to hear from you!</p>
+        <p>
+            You can send me a message or connect on social media. Whatever you prefer!</p>
+
+        <div class="smGrid">
+            <form action="" id="signUpForm" method="post">
+                <h2>Message me!</h2>
+                <label for="name">
+                    <i class="fa-solid fa-user"></i> Full Name
+                </label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email"> 
+                    <i class="fa-solid fa-envelope"></i>
+                    Email
+                </label>
+                <input type="email" id="email" name="email" required>
+            
+                <!-- <label for="country">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    Country <span>(Optional)</span>
+                </label> -->
+
+                <label for="msg">
+                    <i class="fa-regular fa-pen-to-square"></i>Your Message:</label>
+                <textarea id="msg" name="message"> </textarea>
+
+
+            <button id="sendBtn"> Send
+                <i class="fa-solid fa-caret-right"></i>
+            </button>
+
+        
+            </form>
+            
+            <section class="socialMedia" id="smPS">
+                <h2>Paulina Segovia Candia</h2>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/paulina-segovia-candia/" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/psegovia2022" target="_blank"> <i class="fa-brands fa-square-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/PaulinaSegovi19" target="_blank"> <i class="fa-brands fa-square-twitter"></i></a>
+                    </li>
+                </ul>
+
+            </section>
+
+            <section class="socialMedia" id="smCM">
+                <h2>Cientificamente Mujeres</h2>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/cientificamente-mujeres/" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/cientificamente_mujeres/" target="_blank"> <i class="fa-brands fa-square-instagram"></i></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/cientificaMujer" target="_blank"> <i class="fa-brands fa-square-twitter"></i></a>
+                    </li>
+                </ul>
+
+            </section>
+        
+        </div>
+    </article>
+
+    
+</main>
+<footer> 
+        
+    <div class="footerDiv">
+        <section class="fullName">
+        
+        <p>Paulina</p> 
+        <p>Segovia</p>
+        <p>Candia</p>
+        
+        </section>
+
+        <img id="footerIcons"
+        src="../images/footerIconsSmall.png" alt="Bigger icons coding article microscope and microphone">
+
+    </div>
+
+    <div class="wrapper">
+        <div class="circle c1"></div>
+        <div class="circle c2" ></div>
+        <div class="circle c3"></div>
+    </div>
+
+    <p id="copy">&copy;Copyright 2023 </p>
+</footer>
+
+
+</body>
+</html>
